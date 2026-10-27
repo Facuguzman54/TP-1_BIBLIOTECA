@@ -1,0 +1,18 @@
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+
+# MySQL data and local database artifacts
+mysql_data/
+*.bak
+*.dump
+*.log
+
+# Docker overrides
+docker-compose.override.yml
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
